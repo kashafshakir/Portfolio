@@ -29,27 +29,27 @@ const Certifications = () => {
 
   const cardData = [
     {
-      src: './images/harvard.png.png',
+      src: '/images/harvard.png.png',
       title: 'React Developer',
       text: 'Earned for completing React training.'
     },
     {
-      src: './images/frontend-certificate.png',
+      src: '/images/frontend-certificate.png',
       title: 'React Developer',
       text: 'Earned for completing React training.'
     },
     {
-      src: './images/css-certificate.png',
+      src: '/images/css-certificate.png',
       title: 'Card title 2',
       text: 'Supporting text for card 2.'
     },
     {
-      src: './images/SQL-certificate.png',
+      src: '/images/SQL-certificate.png',
       title: 'Card title 3',
       text: 'Supporting text for card 3.'
     },
     {
-      src: './images/Problemsolving.png',
+      src: '/images/Problemsolving.png',
       title: 'Card title 4',
       text: 'Supporting text for card 4.'
     }
