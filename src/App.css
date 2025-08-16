@@ -1,38 +1,181 @@
-.App {
+/* Form styling */
+.form-control {
+  transition: all 0.3s ease;
+  padding: 0.75rem 0;
+  background-color: transparent !important;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #000 !important;
+}
+
+/* Input placeholder styling */
+.form-control::placeholder {
+  color: #adb5bd;
+  opacity: 1;
+}
+
+/* Card styling */
+.rounded-4 {
+  border-radius: 1rem !important;
+}
+
+/* Button hover effect */
+.btn-dark:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation for the arrow */
+.btn-dark span {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.btn-dark:hover span {
+  transform: translateX(3px);
+}
+/*education and experience*/
+/* Timeline styling */
+.timeline {
+  position: relative;
+  padding-left: 50px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 20px;
+  height: 100%;
+  width: 2px;
+  background: #dee2e6;
+}
+
+.timeline-card {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.timeline-period {
+  position: absolute;
+  left: -50px;
+  width: 100px;
+  padding: 5px 10px;
   text-align: center;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.timeline-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.timeline-content::before {
+  content: '';
+  position: absolute;
+  left: -16px;
+  top: 20px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 16px solid white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Hover effects */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Heading styling */
+.position-relative .border-top {
+  z-index: -2;
+}
+
+.z-index--1 {
+  z-index: -1;
+}
+/*styling for skills*/
+.skills-section {
+  padding: 2rem 0;
+  background: #f8f9fa;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.skills-container {
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.skill-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.skill-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.skill-item span {
+  font-size: 0.9rem;
+  color: #555;
 }
+.section-header:hover .section-title {
+  color: #000;
+  letter-spacing: '1px';
+  transition: all 0.3s ease;
+}
+
+.section-header:hover div {
+  background-color: #aaa;
+  transition: all 0.3s ease;
+}
+
+ .typing-container {
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 4s steps(40, end) forwards;
+  text-align: center;
+  margin: 0 auto;
+  /* Removed border-right and blink-caret animation */
+
+
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+.body{
+  background-color: #d8a5b9
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Cormorant:wght@600&family=EB+Garamond:wght@400;500&display=swap');
