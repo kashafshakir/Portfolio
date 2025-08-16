@@ -48,16 +48,16 @@ const Skills = () => {
         {/* Skills Grid */}
         <div className="skills-grid">
           {[
-            { name: 'C', icon: './images/c-programming-icon-free-png (1).webp' },
-            { name: 'C++', icon: './images/cpp_icon.jpg' },
-            { name: 'HTML5', icon: './images/Other-html-5-icon.png' },
-            { name: 'CSS', icon: './images/css-3-icon.png' },
+            { name: 'C', icon: '/Images/c-programming-icon-free-png (1).webp' },
+            { name: 'C++', icon: '/Images/cpp_icon.jpg' },
+            { name: 'HTML5', icon: '/Images/Other-html-5-icon.png' },
+            { name: 'CSS', icon: '/Images/css-3-icon.png' },
             { name: 'JavaScript', icon: faSquareJs, color: '#F7DF1E' },
-            { name: 'React', icon: './images/react_icon.png' },
+            { name: 'React', icon: '/Images/react_icon.png' },
             { name: 'Node.js', icon: faNode, color: '#68A063' },
-            { name: 'Oracle', icon: './images/Oracle-Symbol.png' },
-            { name: 'MongoDB', icon: './images/mongodb.svg' },
-            { name: 'MySQL', icon: './images/database-mysql.avif' }
+            { name: 'Oracle', icon: '/Images/Oracle-Symbol.png' },
+            { name: 'MongoDB', icon: '/Images/mongodb.svg' },
+            { name: 'MySQL', icon: '/Images/database-mysql.avif' }
           ].map((skill, index) => (
             <div 
               key={index} 
