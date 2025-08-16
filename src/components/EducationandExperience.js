@@ -34,33 +34,33 @@ const EducationandExperience = () => {
 const journey = [
   {
     id: 1,
-    degree: "iNotebook",
-    institution: "React, CSS, Node.js, Express.js, MongoDB",
+    degree: "Bachelors in Computer Science (AI Specialization)",
+    institution: "NED University of Engineering and Technology",
+    start_year: 2023,
+    end_year: 2027,
     description:
-      "iNotebook is your personal cloud-powered digital diary. With secure login and signup, it lets users create, update, and delete notes from anywhere, at any time. Whether it's your next big idea or a reminder to buy milk, iNotebook keeps everything organized in one place. Built from scratch as a full-stack app with robust authentication and seamless UI.",
+      "Pursuing a rigorous 4-year Computer Science degree with a specialization in Artificial Intelligence at one of Pakistan’s top engineering universities. Coursework includes machine learning, data science, and advanced algorithms, complemented by hands-on projects in full-stack development and AI research.",
   },
   {
     id: 2,
-    degree: "SnapNews",
-    institution: "React, CSS, News API",
+    degree: "Website Development Internship",
+    institution: "Bank Al Habib – Central Point Branch",
+    start_year: 2025,
+    end_year: 2025,
     description:
-      "SnapNews is your one-stop platform for real-time news updates. Powered by a third-party API and built with React, it brings you fresh headlines across various categories in a sleek, responsive layout. Think of it as your smart, always-on digital newspaper that looks great on every device.",
+      "Completed a professional internship as a Website Developer in June 2025, contributing to both frontend and backend enhancements of internal web applications. Gained experience in modern web technologies, performance optimization, and real-world deployment.",
   },
   {
     id: 3,
-    degree: "Portfolio Website",
-    institution: "React, CSS, Node.js, Express.js, MySQL",
+    degree: "Winner – Koderz Combat 2024",
+    institution: "NED University of Engineering and Technology",
+    start_year: 2024,
+    end_year: 2024,
     description:
-      "My personal portfolio — a full-stack, fully responsive website crafted to showcase my projects, skills, and contact info in style. It combines aesthetics with functionality, making sure every visitor gets a smooth and engaging experience. From backend to frontend, everything’s custom-built for impact.",
-  },
-  {
-    id: 4,
-    degree: "Currency Converter",
-    institution: "HTML, CSS, JavaScript, Exchange Rate API",
-    description:
-      "A minimalist and fast currency converter that fetches live exchange rates using an external API. Designed with simplicity and speed in mind, it makes switching between currencies effortless. Perfect for travelers, finance nerds, and curious minds.",
+      "Secured 1st place in Koderz Combat 2024, a highly competitive programming battle held at NED University. Outperformed senior students across all years by solving advanced algorithmic challenges under time pressure, demonstrating deep problem-solving skills and coding speed.",
   },
 ];
+
 
  
   return (
